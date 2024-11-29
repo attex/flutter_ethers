@@ -11,14 +11,17 @@ dependencies:
   flutter:
     sdk: flutter
   web3dart: ^2.4.1
-  ens_dart: ^1.0.0
+  ens_dart:
+    git:
+      url: https://github.com/cake-tech/ens_dart.git
+      ref: 838bea81eda9a59f0f7049cb417479ea260fce37
   provider: ^6.0.4
   bip39: ^1.0.6
   decimal: ^3.0.1
   bip32: ^2.0.0
   convert: ^3.1.1
   pointycastle: ^3.6.2
-  http: ^0.13.6
+  http: ^1.2.2
   meta: ^1.12.0
 
 dev_dependencies:
